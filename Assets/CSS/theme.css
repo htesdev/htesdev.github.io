@@ -47,6 +47,14 @@ body {
     body {
         height: 100vh;
     }
+
+    .history {
+        position: absolute;
+        top: 98%;
+        right: 50%;
+        text-align: center;
+        text-shadow: 0px 0px 8px black;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -70,7 +78,7 @@ body {
 
     .about-container h2 {
         width: 400px;
-        transform: translateX(calc(50vw - 50%));
+        transform: translateX(calc(50vw));
     }
 }
 
