@@ -6,6 +6,19 @@
 body {
     margin: 0;
     line-height: inherit;
+    text-align: center;
+}
+
+#bg {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 80vh;
+    z-index: 0;
+    box-shadow: 0px 0px 10px black inset;
 }
 
 .header-content {
@@ -23,5 +36,24 @@ body {
 .about-me {
     font-size: 25px;
     font-family: "Poppins", sans-serif;
+    text-shadow: 0px 0px 8px black;
+}
+
+.about-container {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    text-align: center;
+    text-shadow: 0px 0px 8px black;
+}
+
+.about-container img {
+    width: 250px;
+    filter: drop-shadow(5px 5px 8px black)
+}
+
+.about-container h2 {
+    transform: translateY(-200px);
+    font-size: 30px;
     text-shadow: 0px 0px 8px black;
 }
